@@ -1,0 +1,13 @@
+{
+  "name": "reactjs-mui-theme-repo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "main-app",
+      "library-components",
+      "library-utils"
+    ],
+    "nohoist": []
+  }
+}
