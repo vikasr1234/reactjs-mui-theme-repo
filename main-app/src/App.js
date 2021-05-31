@@ -6,14 +6,14 @@ import {
     CardContent,
     IconButton,
     makeStyles,
-    theme,
     ThemeProvider,
     Toolbar,
     Typography
-} from "library-utils";
+} from "@material-ui/core";
 import {Link as RouterLink, Route, Switch, useRouteMatch} from "react-router-dom";
 import {Refresh} from "@material-ui/icons";
 import {ComponentOne} from "library-components";
+import {theme} from "library-utils";
 
 const AppStyle = makeStyles((theme) => ({
     root: {
